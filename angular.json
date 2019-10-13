@@ -13,7 +13,7 @@
       },
       "root": "projects/scaffold",
       "sourceRoot": "projects/scaffold/src",
-      "prefix": "anms",
+      "prefix": "ng",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",

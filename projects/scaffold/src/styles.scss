@@ -25,34 +25,34 @@
 @import './app/features/examples/examples/examples.component.scss-theme';
 
 @mixin custom-components-theme($theme) {
-  @include anms-styles-reset-theme($theme);
-  @include anms-app-component-theme($theme);
-  @include anms-about-component-theme($theme);
-  @include anms-big-input-component-theme($theme);
-  @include anms-notifications-component-theme($theme);
-  @include anms-todos-container-component-theme($theme);
-  @include anms-stock-market-container-component-theme($theme);
-  @include anms-parent-component-theme($theme);
-  @include anms-child-component-theme($theme);
-  @include anms-examples-component-theme($theme);
+  @include ng-styles-reset-theme($theme);
+  @include ng-app-component-theme($theme);
+  @include ng-about-component-theme($theme);
+  @include ng-big-input-component-theme($theme);
+  @include ng-notifications-component-theme($theme);
+  @include ng-todos-container-component-theme($theme);
+  @include ng-stock-market-container-component-theme($theme);
+  @include ng-parent-component-theme($theme);
+  @include ng-child-component-theme($theme);
+  @include ng-examples-component-theme($theme);
 }
 
 .default-theme {
-  @include angular-material-theme($anms-theme);
-  @include custom-components-theme($anms-theme);
+  @include angular-material-theme($ng-theme);
+  @include custom-components-theme($ng-theme);
 }
 
 .light-theme {
-  @include angular-material-theme($anms-light-theme);
-  @include custom-components-theme($anms-light-theme);
+  @include angular-material-theme($ng-light-theme);
+  @include custom-components-theme($ng-light-theme);
 }
 
 .black-theme {
-  @include angular-material-theme($anms-black-theme);
-  @include custom-components-theme($anms-black-theme);
+  @include angular-material-theme($ng-black-theme);
+  @include custom-components-theme($ng-black-theme);
 }
 
 .nature-theme {
-  @include angular-material-theme($anms-nature-theme);
-  @include custom-components-theme($anms-nature-theme);
+  @include angular-material-theme($ng-nature-theme);
+  @include custom-components-theme($ng-nature-theme);
 }
