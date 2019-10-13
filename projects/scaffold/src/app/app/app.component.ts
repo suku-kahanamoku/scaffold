@@ -56,7 +56,6 @@ export class AppComponent implements OnInit {
 
   private static isIEorEdgeOrSafari() {
     return ['ie', 'edge', 'safari'].includes(browser().name);
-    const neco = 'fdsa';
   }
 
   ngOnInit(): void {
